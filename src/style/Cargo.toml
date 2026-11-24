@@ -1,0 +1,14 @@
+[package]
+name = "extreme-tonfa"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[target.'cfg(target_arch = "arm")'.dependencies]
+libm = "0.2"
+mhgu-forge = { version = "=1.5.0", features = ["imgui"] }
+mhgu-sdk = { path = "../../vendor/mhgu-sdk" }
+mhfz-sdk = { path = "../../vendor/mhfz-sdk" }

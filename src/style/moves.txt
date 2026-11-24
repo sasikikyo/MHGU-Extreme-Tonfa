@@ -1,0 +1,39 @@
+#持棍与步法|Handling & movement
+拔棍攻击|Draw attack|Y|LMB
+收棍|Sheathe|X|R / MMB
+持棍冲刺|Drawn sprint|Flick LS twice, hold|Tap direction twice, hold
+冲刺制动|Brake|Release LS|Release direction
+前后左右垫步|Directional step|LS + A|WASD + Space
+二连垫步|Second step|LS + A again|WASD + Space again
+防御|Guard|Hold RB|Hold E
+切换长棍|Select long reach|RB + Y|E + LMB
+切换短棍|Select short reach|RB + B|E + RMB
+#地面攻击|Ground attacks
+基本连击|Basic string|Tap Y repeatedly|Tap LMB repeatedly
+特殊连击|Special string|Tap B repeatedly|Tap RMB repeatedly
+垫步后突刺|Step into thrust|Y after step|LMB after step
+垫步后追击|Step follow-up|B after step|RMB after step
+长棍蓄力突刺|Charged thrust|Hold Y in long combo|Hold LMB in long combo
+释放蓄力|Release charged thrust|Release Y or reach timeout|Release LMB or reach timeout
+EX蓄力突刺|EX thrust & shockwave|Hold Y, add RB in charge window|Hold LMB, add E in charge window
+冲刺长棍攻击|Running long strike|Y in long-reach sprint|LMB in long-reach sprint
+冲刺短棍攻击|Running short strike|Y in short-reach sprint|LMB in short-reach sprint
+冲刺特殊攻击|Running special strike|B during sprint|RMB during sprint
+#龙气与连穿|Discharges & EX
+龙气穿击|Dragon Qi discharge|Y + B|LMB + RMB
+龙气共鸣|Resonance / timed max gauges|Discharge charged monster part|Discharge charged monster part
+穿击乱舞|Flurry / Piercing Strike Dance|RB + Y + B|E + LMB + RMB
+乱舞终结|Flurry finisher|Y + B during flurry|LMB + RMB during flurry
+延迟爆破|Delayed flurry blast|Land punches and finisher on target|Land punches and finisher on target
+地面EX回避|Ground EX evade|LS + RB + X / RT|WASD + E + R / T
+#空中动作|Aerial actions
+跳跃回避|Jumping evade|RB + A|E + Space
+冲刺起跳|Running jump|RB + A during sprint|E + Space during sprint
+空中基本连击|Aerial basic string|Y in air|LMB in air
+空中特殊攻击|Aerial special / short kick|B in air|RMB in air
+短棍踢击反弹|Short-kick rebound|Land kick, then attack|Land kick, then attack
+空中变棍|Change reach in air|RB + Y / RB + B|E + LMB / E + RMB
+空中龙气穿击|Aerial discharge|Y + B in aerial combo|LMB + RMB in aerial combo
+空中喷射回避|Aerial boost evade|LS + RB + A after takeoff|WASD + E + Space after takeoff
+空中EX回避|Aerial EX evade|LS + RB + X / RT|WASD + E + R / T
+空中受身|Recover from aerial knockback|A when knocked back in air|Space when knocked back in air

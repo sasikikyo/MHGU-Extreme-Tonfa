@@ -1,0 +1,120 @@
+diff --git a/plugins/style-registry/src/config.rs b/plugins/style-registry/src/config.rs
+index 93c149e..05cc47c 100644
+--- a/plugins/style-registry/src/config.rs
++++ b/plugins/style-registry/src/config.rs
+@@ -1,6 +1,7 @@
+ //! Forge savedata INI, using the same tokenizer as Forge's config module.
+ const SECTION: &str = "Weapons";
+-pub const WEAPONS: usize = 15;
++// Key 15 belongs to Prowler. Tonfa selections live under logical key 16.
++pub const WEAPONS: usize = 17;
+ type Selection = [u16; WEAPONS];
+ 
+ fn parse(bytes: &[u8]) -> Selection {
+diff --git a/plugins/style-registry/src/runtime.rs b/plugins/style-registry/src/runtime.rs
+index 1552424..610c907 100644
+--- a/plugins/style-registry/src/runtime.rs
++++ b/plugins/style-registry/src/runtime.rs
+@@ -55,7 +55,7 @@ unsafe extern "C" fn register(
+         return 1;
+     };
+     if !(1..=65535).contains(&style.id)
+-        || style.weapon as usize >= REQUESTED.len()
++        || style.weapon == 15 || style.weapon as usize >= REQUESTED.len()
+         || style.art_slots > 3
+     {
+         return 1;
+@@ -149,11 +149,28 @@ unsafe fn local_hunter() -> u32 {
+     unsafe { hunter::local() }.unwrap_or(0)
+ }
+ 
++unsafe fn equipment_key(equipment: u32, native: u32) -> u32 {
++    if equipment != 0 {
++        let kind = unsafe { ((equipment + 0x1c) as *const u16).read_unaligned() } & 31;
++        let family = unsafe { ((equipment + 0x1e) as *const u16).read_unaligned() };
++        if kind == 25 && (1..=137).contains(&family) {
++            return 16;
++        }
++    }
++    native
++}
++
++unsafe fn actor_key(actor: u32) -> Option<u32> {
++    let native = u32::from(unsafe { hunter::equipped_weapon(actor) }?);
++    let equipment = unsafe { ((actor + 5060) as *const u32).read() };
++    Some(unsafe { equipment_key(equipment, native) })
++}
++
+ unsafe fn actor_entry(actor: u32) -> Option<&'static Entry> {
+     if actor == 0 {
+         return None;
+     }
+-    active(u32::from(unsafe { hunter::equipped_weapon(actor) }?))
++    active(unsafe { actor_key(actor) }?)
+ }
+ 
+ unsafe fn local_entry(actor: u32) -> Option<&'static Entry> {
+@@ -318,7 +335,7 @@ unsafe fn peer_binding<T>(actor: u32, binding: impl Fn(&'static Entry) -> Option
+             return None;
+         }
+         let mut candidates =
+-            entries(u32::from(hunter::equipped_weapon(actor)?)).filter_map(binding);
++            entries(actor_key(actor)?).filter_map(binding);
+         let first = candidates.next()?;
+         candidates.next().is_none().then_some(first)
+     }
+diff --git a/plugins/style-registry/src/runtime/attack.rs b/plugins/style-registry/src/runtime/attack.rs
+index 0071f70..d6179a7 100644
+--- a/plugins/style-registry/src/runtime/attack.rs
++++ b/plugins/style-registry/src/runtime/attack.rs
+@@ -63,6 +63,10 @@ unsafe fn submit_row(actor:u32, attack:*const Attack, stun:Option<u8>)->u32 {
+         // Feed power to the constructor before GU applies weapon modifiers.
+         data.row[0] = 1 << 16;
+         data.row[1] = (data.row[1] & 0xffff0000) | u32::from(attack.power);
++        // Tonfa uses the paired contact constructor with the impact attribute.
++        if style.weapon == 16 {
++            data.row[3] = (data.row[3] & !255) | 1;
++        }
+         let draw = ((actor + 10057) as *const u8).read() & 8 != 0;
+         if let Some(stun) = stun {
+             // 168960 copies the signed HDP byte 34 into the base KO field.
+diff --git a/plugins/style-registry/src/runtime/menu.rs b/plugins/style-registry/src/runtime/menu.rs
+index f811553..2953615 100644
+--- a/plugins/style-registry/src/runtime/menu.rs
++++ b/plugins/style-registry/src/runtime/menu.rs
+@@ -30,7 +30,12 @@ impl BoxMenu {
+         unsafe { read(self.0, 4) }
+     }
+     fn weapon(&self) -> u32 {
+-        unsafe { read(self.panel(), 100) }
++        unsafe {
++            let native = read(self.panel(), 100);
++            let manager: u32 = read(forge::mem::text_addr(), 0x1885b58);
++            if manager == 0 { return native; }
++            super::equipment_key(gu!(0x275a30, manager), native)
++        }
+     }
+     fn phase(&self) -> u32 {
+         unsafe { read(self.0, 128) }
+@@ -251,7 +256,7 @@ unsafe fn status_entry(equipment: u32) -> Option<&'static Entry> {
+         if manager == 0 || equipment == 0 || equipment != gu!(0x275a30, manager) {
+             return None;
+         }
+-        super::active(u32::from(read::<u8>(equipment, 1236)))
++        super::active(super::equipment_key(equipment, u32::from(read::<u8>(equipment, 1236))))
+     }
+ }
+ 
+diff --git a/plugins/style-registry/src/runtime/weapon.rs b/plugins/style-registry/src/runtime/weapon.rs
+index efc592b..d649b22 100644
+--- a/plugins/style-registry/src/runtime/weapon.rs
++++ b/plugins/style-registry/src/runtime/weapon.rs
+@@ -132,7 +132,7 @@ static DRAW_ACTIONS: [[u16; 3]; 256] = {
+ unsafe fn draw_route(actor: u32, native: u32, weapon: u32) -> u32 {
+     unsafe {
+         if let Some(style) =
+-            local_style(actor).filter(|s| s.weapon == weapon && s.controller.is_some())
++            local_style(actor).filter(|s| (s.weapon == weapon || (s.weapon == 16 && weapon == 11)) && s.controller.is_some())
+             && let Some(&[group, slot, flags]) = (native as *const [u16; 3]).as_ref()
+             && let Some(resolved) = resolve_request(
+                 actor,

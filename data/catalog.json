@@ -1,0 +1,2178 @@
+{
+  "families": [
+    {
+      "family": 1,
+      "asset": 501,
+      "spike_donor": "Petrified Blade",
+      "frontier_model": 3656,
+      "frontier_weapon": "Ｄｕｓｔｉｎ",
+      "frontier_row": 12349,
+      "frontier_material_evidence": [
+        "Artisans Testimony",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3656,
+      "geometry_sha256": "9075056f9e29da7bb81090b92d3fcbac82e8ca35921f10528ea3253fcb30b0be"
+    },
+    {
+      "family": 2,
+      "asset": 502,
+      "spike_donor": "Obsidian Blade",
+      "frontier_model": 3658,
+      "frontier_weapon": "Shira Anchor",
+      "frontier_row": 11584,
+      "frontier_material_evidence": [
+        "Pokaradon Bone",
+        "Grease Stone",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3658,
+      "geometry_sha256": "23c63a87f0d01b5ec5822636a575560955345e5d950c41b364381c50eb307fdb"
+    },
+    {
+      "family": 3,
+      "asset": 503,
+      "spike_donor": "Halberd",
+      "frontier_model": 3659,
+      "frontier_weapon": "Venham Seeker",
+      "frontier_row": 11585,
+      "frontier_material_evidence": [
+        "Gypceros Hard Claw",
+        "Wind Up Grass",
+        "GR2 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3659,
+      "geometry_sha256": "8deaccbf448cd228820e001aaf5c2f52e77fc221e9803ddd485103544a77d5f9"
+    },
+    {
+      "family": 4,
+      "asset": 504,
+      "spike_donor": "Decider",
+      "frontier_model": 3660,
+      "frontier_weapon": "Pen Jaro",
+      "frontier_row": 11586,
+      "frontier_material_evidence": [
+        "Farunokku Hide",
+        "Snow Mushroom",
+        "GR2 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3660,
+      "geometry_sha256": "30118d03066097e8ebb9b26aebc869a53c89b8f49a96701b9753a8433bc2e445"
+    },
+    {
+      "family": 5,
+      "asset": 505,
+      "spike_donor": "Igneous Blade",
+      "frontier_model": 3661,
+      "frontier_weapon": "432D・ローカグランゼン",
+      "frontier_row": 11587,
+      "frontier_material_evidence": [
+        "Basarios Teardrop",
+        "Rurousuisen",
+        "GR3 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3661,
+      "geometry_sha256": "fe802fb9d8f4771cbb5721aea5ff4bb11533d23f8b230e6da3311eebe6c1deda"
+    },
+    {
+      "family": 6,
+      "asset": 506,
+      "spike_donor": "Type 41 Wyvernator",
+      "frontier_model": 3662,
+      "frontier_weapon": "Hedge Bunker",
+      "frontier_row": 11588,
+      "frontier_material_evidence": [
+        "Hyuji Bristle Pelt",
+        "Grease Stone",
+        "GR3 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3662,
+      "geometry_sha256": "5bde658f66d0cb9f0d788bdeb3abe3b331996e4a2fb71d1743175f9089a47b24"
+    },
+    {
+      "family": 7,
+      "asset": 507,
+      "spike_donor": "Khezu Shock Sword",
+      "frontier_model": 4989,
+      "frontier_weapon": "Stormgear",
+      "frontier_row": 15151,
+      "frontier_material_evidence": [
+        "Khezu Fresh Hide",
+        "Khezu Spleen",
+        "Khezu Sucker"
+      ],
+      "model_selection": "Khezu",
+      "frontier_sound": 4989,
+      "geometry_sha256": "48c4d7d10164faa5b6e2fcee7ff6a4ccd09f5296d1381814091df5cd5108124c"
+    },
+    {
+      "family": 8,
+      "asset": 508,
+      "spike_donor": "Defender",
+      "frontier_model": 3664,
+      "frontier_weapon": "Burstwolf Tonfa \"Show\"",
+      "frontier_row": 11590,
+      "frontier_material_evidence": [
+        "Midogaron Fang",
+        "Kinushimeji",
+        "GR4 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3664,
+      "geometry_sha256": "376e1b8e12d8d43c4800fe3e8ccfa381c8abeb05836f70cdb01899706699bc8c"
+    },
+    {
+      "family": 9,
+      "asset": 509,
+      "spike_donor": "Usurper's Storm",
+      "frontier_model": 4529,
+      "frontier_weapon": "Despot's Tusks",
+      "frontier_row": 13533,
+      "frontier_material_evidence": [
+        "Zinogre D.Shocker",
+        "Fulgurbug",
+        "Zinogre Hardhorn"
+      ],
+      "model_selection": "Zinogre",
+      "frontier_sound": 4529,
+      "geometry_sha256": "ca3da8f048f85c2793e22113592b2a7fcdba8fc38f5d6ca3e818d0c2e2cd8fc8"
+    },
+    {
+      "family": 10,
+      "asset": 510,
+      "spike_donor": "Barbaroi Blade",
+      "frontier_model": 3665,
+      "frontier_weapon": "472D・ロカパルツァー",
+      "frontier_row": 11591,
+      "frontier_material_evidence": [
+        "Gravios Mega Shell",
+        "Jewel Beetle Gem",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3665,
+      "geometry_sha256": "d28f9369c59e7f300ae6bee6168f447e98e05062adc423328109731c357d84f0"
+    },
+    {
+      "family": 11,
+      "asset": 511,
+      "spike_donor": "Iron Sword",
+      "frontier_model": 3666,
+      "frontier_weapon": "Frostmist Tonfa",
+      "frontier_row": 11592,
+      "frontier_material_evidence": [
+        "Giaorugu Scale",
+        "Amber Ore",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3666,
+      "geometry_sha256": "7cc237d82e186a03867058221d9608095549d50d3175fa48bce673596a0773f9"
+    },
+    {
+      "family": 12,
+      "asset": 512,
+      "spike_donor": "Lagiacrus Blade",
+      "frontier_model": 3667,
+      "frontier_weapon": "492D・ローゼンドレウザ",
+      "frontier_row": 11593,
+      "frontier_material_evidence": [
+        "Espi Eternal Scale",
+        "Galena",
+        "GR6 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3667,
+      "geometry_sha256": "850c7435752a9cc489f2fe86ea16a46503c56df02cd32834b34704b9fb1ea041"
+    },
+    {
+      "family": 13,
+      "asset": 513,
+      "spike_donor": "Lagia Lightning",
+      "frontier_model": 3668,
+      "frontier_weapon": "Sawhorn Tonfa \"Fin\"",
+      "frontier_row": 11594,
+      "frontier_material_evidence": [
+        "Anour Shell",
+        "Spiderwort",
+        "GR6 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3668,
+      "geometry_sha256": "c10ae51cdb5cee8cab5fbe5d69b69c56cdd11550d8a7701d64be0c8846ae4bbe"
+    },
+    {
+      "family": 14,
+      "asset": 514,
+      "spike_donor": "Plesioth Watercutter",
+      "frontier_model": 3669,
+      "frontier_weapon": "4B2D・ヴァシム・フワァール",
+      "frontier_row": 11595,
+      "frontier_material_evidence": [
+        "Vashimu Mega Shell",
+        "Sunny Grass",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3669,
+      "geometry_sha256": "9f08e0fc3290ce9ed99aef6166b1aada7379463d07aa575239e1c224b7fda5c0"
+    },
+    {
+      "family": 15,
+      "asset": 515,
+      "spike_donor": "Plesioth Wave Sword",
+      "frontier_model": 3670,
+      "frontier_weapon": "EmperorThunderpole Tonfa",
+      "frontier_row": 11596,
+      "frontier_material_evidence": [
+        "Rebidiora Shard",
+        "Triedge Ore",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3670,
+      "geometry_sha256": "b6fe7abca93bb8fe3c025880d74890131fd2d6b57adbe587568d6b0a27e16937"
+    },
+    {
+      "family": 16,
+      "asset": 516,
+      "spike_donor": "Ravager Blade",
+      "frontier_model": 3671,
+      "frontier_weapon": "Heavenly Tonfas",
+      "frontier_row": 11597,
+      "frontier_material_evidence": [
+        "Shanthien Shard",
+        "Fragile Seed",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3671,
+      "geometry_sha256": "231e3ddfbc4952544cfa7ac5dd41270caa73922e972ebc27d42fe64dc42fa016"
+    },
+    {
+      "family": 17,
+      "asset": 517,
+      "spike_donor": "Lacerator Blade",
+      "frontier_model": 3672,
+      "frontier_weapon": "4E2D・ダードブロウバル",
+      "frontier_row": 11598,
+      "frontier_material_evidence": [
+        "Mi-Ru Enigma Scale",
+        "Butterfly Lily",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3672,
+      "geometry_sha256": "86df594aad01534128a4072dd0292c1e9532e5d3cc9b213005895d50a848bb71"
+    },
+    {
+      "family": 18,
+      "asset": 518,
+      "spike_donor": "Tactical Blade",
+      "frontier_model": 3673,
+      "frontier_weapon": "4F2D・熾ス罪凍ル咎ヲ纏シ杭",
+      "frontier_row": 11599,
+      "frontier_material_evidence": [
+        "Disu.Fire Plate",
+        "Kinushimeji",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3673,
+      "geometry_sha256": "1433de73eea2f5802284d3fc3ea43d89a40e0f4271bfa4e6bd89ed5352aa8da9"
+    },
+    {
+      "family": 19,
+      "asset": 519,
+      "spike_donor": "Hidden Blade",
+      "frontier_model": 4737,
+      "frontier_weapon": "Hidden Tonfa",
+      "frontier_row": 14471,
+      "frontier_material_evidence": [
+        "Nargacuga Shard",
+        "Narga Blackfur+",
+        "Narga Tailspear"
+      ],
+      "model_selection": "Nargacuga",
+      "frontier_sound": 4737,
+      "geometry_sha256": "81f291045c613e16df9520516ee6b456c95a35f8690564950adc40be402a8058"
+    },
+    {
+      "family": 20,
+      "asset": 520,
+      "spike_donor": "Buster Sword",
+      "frontier_model": 3674,
+      "frontier_weapon": "Thorn Pile",
+      "frontier_row": 11843,
+      "frontier_material_evidence": [
+        "Hypnoc Finehide",
+        "Spiderwort",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3674,
+      "geometry_sha256": "8a53ff103123bfbffe8825e4e1ce1497c99ae0d17259ca44afa13085bad78604"
+    },
+    {
+      "family": 21,
+      "asset": 521,
+      "spike_donor": "Chrome Razor",
+      "frontier_model": 3675,
+      "frontier_weapon": "Blood-Sucking Clubs",
+      "frontier_row": 11600,
+      "frontier_material_evidence": [
+        "Baru Blood Bag",
+        "Shining Heaven Ore",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3675,
+      "geometry_sha256": "aa92ad79e88066adb1f5e50664645d2be7942c47ac753ed5503919580ff3414b"
+    },
+    {
+      "family": 22,
+      "asset": 522,
+      "spike_donor": "Brazenwall",
+      "frontier_model": 4746,
+      "frontier_weapon": "3C38・金棍オデス",
+      "frontier_row": 14396,
+      "frontier_material_evidence": [
+        "Uragaan Shard",
+        "Uragaan Cortex",
+        "Uragaan Marrow"
+      ],
+      "model_selection": "Uragaan",
+      "frontier_sound": 4746,
+      "geometry_sha256": "31c8ce61de64686f471f4861d7b00cf15e9aa93efa4a6b6b45328eada292e491"
+    },
+    {
+      "family": 23,
+      "asset": 523,
+      "spike_donor": "Skraga",
+      "frontier_model": 3676,
+      "frontier_weapon": "UltimateThndr\"GoldDrake\"",
+      "frontier_row": 11601,
+      "frontier_material_evidence": [
+        "Beru. Supreme Shl",
+        "Red Tea Seeds",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3676,
+      "geometry_sha256": "03a1246ce3cf058d70db953bde62e10e53218ffacce792e2dec4aa408111cdfc"
+    },
+    {
+      "family": 24,
+      "asset": 524,
+      "spike_donor": "Santoku Reaver",
+      "frontier_model": 3678,
+      "frontier_weapon": "Quelling Stake",
+      "frontier_row": 11844,
+      "frontier_material_evidence": [
+        "Monoblos Carapace",
+        "Fragile Seed",
+        "GR2 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3678,
+      "geometry_sha256": "f9eb1a220b0c65fa149b931c6e375bc6b323db3fe96710326a513f176eb88633"
+    },
+    {
+      "family": 25,
+      "asset": 525,
+      "spike_donor": "Toad Bereaver",
+      "frontier_model": 3679,
+      "frontier_weapon": "Cinnabar Furoru Tonfa",
+      "frontier_row": 11528,
+      "frontier_material_evidence": [
+        "Foro Hardclaw",
+        "Shining Heaven Ore",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3679,
+      "geometry_sha256": "410586a37428152c7114dda0a23c3246eb157b0f1b4d7ec7f4e21509d56064f8"
+    },
+    {
+      "family": 26,
+      "asset": 526,
+      "spike_donor": "Bone Cleaver",
+      "frontier_model": 3680,
+      "frontier_weapon": "Royal Wolf Tonfa \"Azuma\"",
+      "frontier_row": 11604,
+      "frontier_material_evidence": [
+        "Nono Fine Fang",
+        "Rurousuisen",
+        "GR3 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3680,
+      "geometry_sha256": "4f5074d76e7e97e0488f52e5bd0dc674b13617dcfc8e2cc90cef6aea8ea10d59"
+    },
+    {
+      "family": 27,
+      "asset": 527,
+      "spike_donor": "Red Wing",
+      "frontier_model": 3663,
+      "frontier_weapon": "Flaming Rathalos Tonfa",
+      "frontier_row": 11589,
+      "frontier_material_evidence": [
+        "Los Great Shell",
+        "Amber Ore",
+        "GR4 Gem"
+      ],
+      "model_selection": "Rathalos",
+      "frontier_sound": 3663,
+      "geometry_sha256": "7252aebfe66bf14baa8c0bf116e16ee53662edba3ff94c5267f4101231a56b6e"
+    },
+    {
+      "family": 28,
+      "asset": 528,
+      "spike_donor": "Rathalos Gleamsword",
+      "frontier_model": 3681,
+      "frontier_weapon": "Tita Libre",
+      "frontier_row": 11605,
+      "frontier_material_evidence": [
+        "White Lolo Pelt",
+        "Spiderwort",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3681,
+      "geometry_sha256": "5d4eddaede2ec7bc6e3bbea392eb1c63f7ad3014921b8c8f3baaf6ac9f520557"
+    },
+    {
+      "family": 29,
+      "asset": 529,
+      "spike_donor": "Cheda Blade",
+      "frontier_model": 6317,
+      "frontier_weapon": "Guran Defiance",
+      "frontier_row": 16358,
+      "frontier_material_evidence": [
+        "Seregios Slavescale+",
+        "Seregios Carver+",
+        "Seregios Sunderer"
+      ],
+      "model_selection": "Seregios",
+      "frontier_sound": 6317,
+      "geometry_sha256": "0752466ada6dce9a121f38fdb1427850f9f97b12e115522d5015ce5289e8494c"
+    },
+    {
+      "family": 30,
+      "asset": 530,
+      "spike_donor": "Seditious Cleaver",
+      "frontier_model": 3682,
+      "frontier_weapon": "Fatalis Tonfa",
+      "frontier_row": 11606,
+      "frontier_material_evidence": [
+        "Fatalis Cortex",
+        "Ice Stone",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3682,
+      "geometry_sha256": "fde69c7a8a1140da340dd470e3011e0978a689b31a3fdd6dc4d831b915c62fe3"
+    },
+    {
+      "family": 31,
+      "asset": 531,
+      "spike_donor": "Jawblade",
+      "frontier_model": 3685,
+      "frontier_weapon": "FA2B・グェンビーシャンド",
+      "frontier_row": 11258,
+      "frontier_material_evidence": [
+        "Ｇシャンド生産券",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3685,
+      "geometry_sha256": "49f9e4c4bb551df985c15d4e1cf999cbf86d9a0eeb89b853186185f183b375cb"
+    },
+    {
+      "family": 32,
+      "asset": 532,
+      "spike_donor": "Wyvern Jawblade",
+      "frontier_model": 3687,
+      "frontier_weapon": "Giroa Glaria",
+      "frontier_row": 11358,
+      "frontier_material_evidence": [
+        "G Glaria Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3687,
+      "geometry_sha256": "b80001c24b49f47329823b4522fc75d96f4abbf963f42a0e1d987383b7b3b894"
+    },
+    {
+      "family": 33,
+      "asset": 533,
+      "spike_donor": "Thrash Sword",
+      "frontier_model": 3688,
+      "frontier_weapon": "Romu Gunla",
+      "frontier_row": 11859,
+      "frontier_material_evidence": [
+        "Romu Tkt"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3688,
+      "geometry_sha256": "413de504ec36ca729f2f0998dc0638ed1616c3bb652bad9e38c0cd37de4bef04"
+    },
+    {
+      "family": 34,
+      "asset": 534,
+      "spike_donor": "Thrash Blade",
+      "frontier_model": 3689,
+      "frontier_weapon": "202D・ヴォーラファレッド",
+      "frontier_row": 11552,
+      "frontier_material_evidence": [
+        "Festival Emblem",
+        "Wave Soul Grass",
+        "GR3 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3689,
+      "geometry_sha256": "9d92be501279b48d2d46a6b0e3d3d9d93b35205c900af0b5b929f60b6f13ffa1"
+    },
+    {
+      "family": 35,
+      "asset": 535,
+      "spike_donor": "Golem Blade",
+      "frontier_model": 3694,
+      "frontier_weapon": "Fazel Garuda",
+      "frontier_row": 11769,
+      "frontier_material_evidence": [
+        "Fazel G Tkt",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3694,
+      "geometry_sha256": "7cc5726c688998c3ea44c34f1092cd105217f176246d2f0bdf7d7c1793f63218"
+    },
+    {
+      "family": 36,
+      "asset": 536,
+      "spike_donor": "Valkyrie Blade",
+      "frontier_model": 3700,
+      "frontier_weapon": "Justice Croix",
+      "frontier_row": 11412,
+      "frontier_material_evidence": [
+        "Netcafe Token",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3700,
+      "geometry_sha256": "f585a08fb3822b74c5c0c27b9b5ee82c76b84a77ca0df3543df4def5e13c73d4"
+    },
+    {
+      "family": 37,
+      "asset": 537,
+      "spike_donor": "Spartacus Blade",
+      "frontier_model": 3737,
+      "frontier_weapon": "0B2D・トラグ・イザーム",
+      "frontier_row": 11531,
+      "frontier_material_evidence": [
+        "Music Crystal",
+        "Daora Carapace",
+        "Prayer Tree Ore"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3737,
+      "geometry_sha256": "acd52cea95a967a4c70bdeeb2ab2bcc536ee154ae94e4d98d34e87b8ffb21186"
+    },
+    {
+      "family": 38,
+      "asset": 538,
+      "spike_donor": "Tiger Jawblade",
+      "frontier_model": 6007,
+      "frontier_weapon": "Deathroad Deceit",
+      "frontier_row": 15491,
+      "frontier_material_evidence": [
+        "Tigrex Hard Scale",
+        "Tigrex Hard Hide",
+        "Tigrex Violence Tail"
+      ],
+      "model_selection": "Tigrex",
+      "frontier_sound": 6007,
+      "geometry_sha256": "4484e9feb222d820df2eaebd82283c788732eab8cf7f0c44c909414f654617dd"
+    },
+    {
+      "family": 39,
+      "asset": 539,
+      "spike_donor": "Dios Blade",
+      "frontier_model": 4549,
+      "frontier_weapon": "Blast Destroyers",
+      "frontier_row": 13638,
+      "frontier_material_evidence": [
+        "Glowing Slime",
+        "Brach Tail",
+        "Brach Crown"
+      ],
+      "model_selection": "Brachydios",
+      "frontier_sound": 4549,
+      "geometry_sha256": "6c18f3bed1c47c9a1c98ea921607299078376a73fdca7585a8f4a53cfc92bf17"
+    },
+    {
+      "family": 40,
+      "asset": 540,
+      "spike_donor": "Demolition Sword",
+      "frontier_model": 3748,
+      "frontier_weapon": "Rashine",
+      "frontier_row": 12749,
+      "frontier_material_evidence": [
+        "Larcia Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3748,
+      "geometry_sha256": "e49eae8f922953419acfdf4e35d53fd626dd57453ee19dcea1acb6fa790ee416"
+    },
+    {
+      "family": 41,
+      "asset": 541,
+      "spike_donor": "Executioner",
+      "frontier_model": 3750,
+      "frontier_weapon": "Faial Vishna",
+      "frontier_row": 11260,
+      "frontier_material_evidence": [
+        "Ｆビシュナ生産券",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3685,
+      "geometry_sha256": "31a05c26dd3fb639433afd12aef9c73a98369311192739fa5088724b50906a35"
+    },
+    {
+      "family": 42,
+      "asset": 542,
+      "spike_donor": "Ludroth Bone Sword",
+      "frontier_model": 3804,
+      "frontier_weapon": "Golddust Gale Tonfa",
+      "frontier_row": 12321,
+      "frontier_material_evidence": [
+        "Arugoru Fuse Shell",
+        "Tonfas Soul (Top)",
+        "P.Gyp Green Tail"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3804,
+      "geometry_sha256": "dfbb4680f1994efcbe298b93e811efa56f7e27929376bdede76fab3dd29269bf"
+    },
+    {
+      "family": 43,
+      "asset": 543,
+      "spike_donor": "Cataclysm Sword",
+      "frontier_model": 3843,
+      "frontier_weapon": "AB2F・ジョニーカルテット",
+      "frontier_row": 12203,
+      "frontier_material_evidence": [
+        "Slippery Sucker",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3843,
+      "geometry_sha256": "b5a976954b0a460a90ac8e04089c4c2c2702f44f30643ca7adbb754bbc448ea8"
+    },
+    {
+      "family": 44,
+      "asset": 544,
+      "spike_donor": "Snowclad",
+      "frontier_model": 3844,
+      "frontier_weapon": "AB2E・ブルーノエスター",
+      "frontier_row": 11947,
+      "frontier_material_evidence": [
+        "Phantasmal Hotrock",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3844,
+      "geometry_sha256": "12cc029015e227b5f75357a8fae9adcf6d38f3105bc207284a4f7b61f69b4b00"
+    },
+    {
+      "family": 45,
+      "asset": 545,
+      "spike_donor": "Red Stripe",
+      "frontier_model": 3854,
+      "frontier_weapon": "Cranium Sting",
+      "frontier_row": 11973,
+      "frontier_material_evidence": [
+        "Cranium Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3854,
+      "geometry_sha256": "38f741632561a3ffcbc6a9fdc6514989071e5f4fe5960cb1688701fa467a8ce5"
+    },
+    {
+      "family": 46,
+      "asset": 546,
+      "spike_donor": "Red Pincer",
+      "frontier_model": 4006,
+      "frontier_weapon": "Zeru Wings [Shine]",
+      "frontier_row": 11602,
+      "frontier_material_evidence": [
+        "Black Wyvern Claw",
+        "Tonfas Soul (Top)",
+        "Ceanataur Katana"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3677,
+      "geometry_sha256": "abf4b385adbaaea2b42d38d1cf37ef65895879b473b139bd7fa8e4d25dc16c77"
+    },
+    {
+      "family": 47,
+      "asset": 547,
+      "spike_donor": "Ceanataur Blade",
+      "frontier_model": 4008,
+      "frontier_weapon": "EA2B・コーレティーラ",
+      "frontier_row": 11242,
+      "frontier_material_evidence": [
+        "Teostra Sup. Wing",
+        "Tonfas Soul (Top)",
+        "Velocidrome Sac"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3736,
+      "geometry_sha256": "04ffb6bc50c7858e3e5433876d8011cabb1b3c15fa61707cd212f5268f8deb78"
+    },
+    {
+      "family": 48,
+      "asset": 548,
+      "spike_donor": "Azure Serpentblade",
+      "frontier_model": 4010,
+      "frontier_weapon": "Prototype Model",
+      "frontier_row": 11767,
+      "frontier_material_evidence": [
+        "Bamot Steel"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4010,
+      "geometry_sha256": "8df599532c2a07466dbfc524663cc1ffc25d63801280c6de789a97073d18f639"
+    },
+    {
+      "family": 49,
+      "asset": 549,
+      "spike_donor": "Saffron Fangblade",
+      "frontier_model": 4011,
+      "frontier_weapon": "Crimson Pact",
+      "frontier_row": 12347,
+      "frontier_material_evidence": [
+        "C Pact Tkt",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4011,
+      "geometry_sha256": "b799ad4ea293607d1883cd3d84763f7947e98adbc78a38f33878d6f721893818"
+    },
+    {
+      "family": 50,
+      "asset": 550,
+      "spike_donor": "Fanged Serpentblade",
+      "frontier_model": 4016,
+      "frontier_weapon": "C92E・デン・カメント",
+      "frontier_row": 11977,
+      "frontier_material_evidence": [
+        "カメント生産券",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4016,
+      "geometry_sha256": "335314403ffd11d8c7ef9676987467d397a55afd7cbc526b7f2d14415cab43ae"
+    },
+    {
+      "family": 51,
+      "asset": 551,
+      "spike_donor": "Deadly Serpentblade",
+      "frontier_model": 4106,
+      "frontier_weapon": "BA2F・フォレルー",
+      "frontier_row": 12218,
+      "frontier_material_evidence": [
+        "Foret R Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4106,
+      "geometry_sha256": "9062d28caf4ef736bfc751ccbbc2bc8b11d3027a33297b9c2126b97deef8ef95"
+    },
+    {
+      "family": 52,
+      "asset": 552,
+      "spike_donor": "White Serpentblade",
+      "frontier_model": 4150,
+      "frontier_weapon": "Ceris Isam",
+      "frontier_row": 12309,
+      "frontier_material_evidence": [
+        "Sound Crystal",
+        "Elder Dragon Blood",
+        "Eternal Ice Cube"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3737,
+      "geometry_sha256": "6b0ab914ac448c0539c810d31b3d04d1b62564e19a089d5904196d8efc8a3bbd"
+    },
+    {
+      "family": 53,
+      "asset": 553,
+      "spike_donor": "Chicken Decapitator",
+      "frontier_model": 3657,
+      "frontier_weapon": "Kut-Ku Jember",
+      "frontier_row": 11583,
+      "frontier_material_evidence": [
+        "Kut-Ku Bone",
+        "Galena",
+        "GR1 Gem"
+      ],
+      "model_selection": "Yian Kut-Ku",
+      "frontier_sound": 3657,
+      "geometry_sha256": "4ddee0e98ad5f8d4973e786035af5a779025229f625fe8378caae213c248cc5d"
+    },
+    {
+      "family": 54,
+      "asset": 554,
+      "spike_donor": "Sentoryu Raven",
+      "frontier_model": 4167,
+      "frontier_weapon": "True Scarlet Club\"Frost\"",
+      "frontier_row": 12900,
+      "frontier_material_evidence": [
+        "Gogo Eminent Fur",
+        "Wind Up Grass",
+        "GR3 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4167,
+      "geometry_sha256": "a35d179378523cf932b3ba2b34cd3e0e8be9b6a85db93637ce162e02440dad42"
+    },
+    {
+      "family": 55,
+      "asset": 555,
+      "spike_donor": "Sentoryu Bane",
+      "frontier_model": 4168,
+      "frontier_weapon": "Caduceus",
+      "frontier_row": 12450,
+      "frontier_material_evidence": [
+        "Netcafe Token",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4168,
+      "geometry_sha256": "df1b2282a5833ef878eea66e4e562d5e7cba3a783cafe8a18c69a31b17ea31e6"
+    },
+    {
+      "family": 56,
+      "asset": 556,
+      "spike_donor": "Nocturnal Falx",
+      "frontier_model": 4200,
+      "frontier_weapon": "Caravan Strike I",
+      "frontier_row": 12589,
+      "frontier_material_evidence": [
+        "Maka Ore",
+        "Silver Crystal",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4200,
+      "geometry_sha256": "a96bc2533293417306ff0845fb99dfde08c98f8478009978bd9aa981dca78c12"
+    },
+    {
+      "family": 57,
+      "asset": 557,
+      "spike_donor": "Verdant Wing",
+      "frontier_model": 4224,
+      "frontier_weapon": "2C31・ラダールファーティ",
+      "frontier_row": 12588,
+      "frontier_material_evidence": [
+        "Festival Emblem",
+        "Stormsoul Grass",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3689,
+      "geometry_sha256": "1713c9470cc12008132132f4f736b35c51ad681827434511fa2749a10a4e911b"
+    },
+    {
+      "family": 58,
+      "asset": 558,
+      "spike_donor": "Giant's Slicer",
+      "frontier_model": 4236,
+      "frontier_weapon": "5D32・ヘルトファーティ",
+      "frontier_row": 12893,
+      "frontier_material_evidence": [
+        "Festival Emblem",
+        "Sandsoul Grass",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 3689,
+      "geometry_sha256": "1193e4db24f5236c1450803a8331ad17758c5baf553bac0b7d0d477604afb57b"
+    },
+    {
+      "family": 59,
+      "asset": 559,
+      "spike_donor": "Hanayako Yohino",
+      "frontier_model": 4252,
+      "frontier_weapon": "9933・グロスヴォーレ",
+      "frontier_row": 13209,
+      "frontier_material_evidence": [
+        "Fague Steel",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4252,
+      "geometry_sha256": "6cd5b612c76350c8864a7940817859686b0423b4ab9491e7af13fc8bc735c500"
+    },
+    {
+      "family": 60,
+      "asset": 560,
+      "spike_donor": "Scorching Blazer",
+      "frontier_model": 4253,
+      "frontier_weapon": "White Neko Punch",
+      "frontier_row": 12611,
+      "frontier_material_evidence": [
+        "White Cats Bill",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4253,
+      "geometry_sha256": "7e22aa527edcfc9225b97db39f2361757c0c75d11a14236fbd1e215ec8585f58"
+    },
+    {
+      "family": 61,
+      "asset": 561,
+      "spike_donor": "Schattenstolz",
+      "frontier_model": 4950,
+      "frontier_weapon": "Elendsflug",
+      "frontier_row": 15304,
+      "frontier_material_evidence": [
+        "Gore Magala Shard",
+        "Gore Magala Shredder",
+        "Gore Magala Feeler+"
+      ],
+      "model_selection": "Gore Magala",
+      "frontier_sound": 4950,
+      "geometry_sha256": "fa9207c8bfe27f0b18f7cda76c371a4d0eed11abeebd9ebeda4ee1f4dc40fe47"
+    },
+    {
+      "family": 62,
+      "asset": 562,
+      "spike_donor": "L'Apothéose",
+      "frontier_model": 6039,
+      "frontier_weapon": "Le Scintillement",
+      "frontier_row": 15589,
+      "frontier_material_evidence": [
+        "S.Magala Shard",
+        "S.Magala Purifier",
+        "S.Magala Horn"
+      ],
+      "model_selection": "Shagaru Magala",
+      "frontier_sound": 6039,
+      "geometry_sha256": "99efe305dcfee571f6b9c057e05b5fc8225bee727c54498e27c26f55f01b7ec8"
+    },
+    {
+      "family": 63,
+      "asset": 563,
+      "spike_donor": "Kirin Thundersword",
+      "frontier_model": 4842,
+      "frontier_weapon": "Raijin Tonfa \"Vision\"",
+      "frontier_row": 14871,
+      "frontier_material_evidence": [
+        "Kirin Storm Hide",
+        "Galena",
+        "GR7 Gem"
+      ],
+      "model_selection": "Kirin",
+      "frontier_sound": 4842,
+      "geometry_sha256": "724c06d544c3d7d691580989bb33589cd584b63dfb450d94ee8bf2ecb0fe53d6"
+    },
+    {
+      "family": 64,
+      "asset": 564,
+      "spike_donor": "Grand Shamshir",
+      "frontier_model": 4264,
+      "frontier_weapon": "C631・創音棍【玉音】",
+      "frontier_row": 12742,
+      "frontier_material_evidence": [
+        "Poborubarumu Piel",
+        "Butterfly Lily",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4264,
+      "geometry_sha256": "9b71c3a7aa58f9df5852d027ddfd1ea3d7db6b7b5168c78355c4550758b6299f"
+    },
+    {
+      "family": 65,
+      "asset": 565,
+      "spike_donor": "Demon Rod",
+      "frontier_model": 4295,
+      "frontier_weapon": "ネクロポリス",
+      "frontier_row": 12693,
+      "frontier_material_evidence": [
+        "焦げた秘文書"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4295,
+      "geometry_sha256": "bdde2057556aef8ffdb5fa456e3f612f13b0406c6cd9483efa66d97a997214a7"
+    },
+    {
+      "family": 66,
+      "asset": 566,
+      "spike_donor": "Demonlord Club",
+      "frontier_model": 4351,
+      "frontier_weapon": "Ocean Fortress Tonfa",
+      "frontier_row": 12942,
+      "frontier_material_evidence": [
+        "Odi Supreme Scale",
+        "Tonfas Soul (Top)",
+        "Guread. WaterSac"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4351,
+      "geometry_sha256": "7cdbd88aff7da8149bb6483aeb17f8633765627178480dea40c1a8b658ef277d"
+    },
+    {
+      "family": 67,
+      "asset": 567,
+      "spike_donor": "Berserker Sword",
+      "frontier_model": 4537,
+      "frontier_weapon": "Robbed Hope",
+      "frontier_row": 13612,
+      "frontier_material_evidence": [
+        "Deviljho Ripper",
+        "Deviljho talon",
+        "Deviljho Hardfang"
+      ],
+      "model_selection": "Deviljho",
+      "frontier_sound": 4537,
+      "geometry_sha256": "d1e927808d7b45e986c6ae833c37a3d5499940d1f271304fd7bf00aa2ff8e4bb"
+    },
+    {
+      "family": 68,
+      "asset": 568,
+      "spike_donor": "Consummate Blade",
+      "frontier_model": 4354,
+      "frontier_weapon": "1C3A・ブルエール＝アーラ",
+      "frontier_row": 14876,
+      "frontier_material_evidence": [
+        "Ruko.Pureshard",
+        "Sunny Grass",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4354,
+      "geometry_sha256": "951e54398986fd08a5df3f88bfcf6b5e24634398291ec58e326d2fc7808fc294"
+    },
+    {
+      "family": 69,
+      "asset": 569,
+      "spike_donor": "Skeletal Great Sword",
+      "frontier_model": 4367,
+      "frontier_weapon": "Rovino",
+      "frontier_row": 13022,
+      "frontier_material_evidence": [
+        "Ruvuni Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4106,
+      "geometry_sha256": "a12919347eddf9bb9a206968af38e2fa8118e40f33304298e17ba5642cb0d40a"
+    },
+    {
+      "family": 70,
+      "asset": 570,
+      "spike_donor": "Astral Leo",
+      "frontier_model": 4379,
+      "frontier_weapon": "2A33・ドルルスキューニャ",
+      "frontier_row": 13098,
+      "frontier_material_evidence": [
+        "FG3 Tkt 5",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4379,
+      "geometry_sha256": "712b87a45dc89893e4d1674875a2f821e852e1ba60cb3465814aad504d1873da"
+    },
+    {
+      "family": 71,
+      "asset": 571,
+      "spike_donor": "Akantor Broadsword",
+      "frontier_model": 4390,
+      "frontier_weapon": "Law and Punishment",
+      "frontier_row": 13114,
+      "frontier_material_evidence": [
+        "Dragon Crystal Gem",
+        "Ceremony Lyrics",
+        "Mirage Powder"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4390,
+      "geometry_sha256": "baedab3f73e65413f9f2ab4d0d9fc2947ede2b9fe7cbd42d3a55805fd3572055"
+    },
+    {
+      "family": 72,
+      "asset": 572,
+      "spike_donor": "Ukanlos Destructor",
+      "frontier_model": 4425,
+      "frontier_weapon": "9833・ツーファルヴィゴーレ",
+      "frontier_row": 13208,
+      "frontier_material_evidence": [
+        "Festival Emblem",
+        "Coast Soul Grass",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4425,
+      "geometry_sha256": "878844387239a5e78ec039e5ad6ee3884b62fa1323ec17a3200095ddc790e21b"
+    },
+    {
+      "family": 73,
+      "asset": 573,
+      "spike_donor": "Alatreon Great Sword",
+      "frontier_model": 4431,
+      "frontier_weapon": "A433・スミス＝デュオ",
+      "frontier_row": 13220,
+      "frontier_material_evidence": [
+        "Shiny Sucker",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4431,
+      "geometry_sha256": "87508d7e566df88e09a194a9ff64f645567de23d78f643079637549e35d51fec"
+    },
+    {
+      "family": 74,
+      "asset": 574,
+      "spike_donor": "Roilcloud Sword",
+      "frontier_model": 6225,
+      "frontier_weapon": "Ominous Cloudburst",
+      "frontier_row": 16093,
+      "frontier_material_evidence": [
+        "Amatsu Cortex",
+        "Storm Vesicle+",
+        "Amatsu Hard Horn"
+      ],
+      "model_selection": "Amatsu",
+      "frontier_sound": 6225,
+      "geometry_sha256": "6dfddc4c68234e79281b8791ee32a8f734ca3f9b45071b6f632e4726dd561159"
+    },
+    {
+      "family": 75,
+      "asset": 575,
+      "spike_donor": "Rusted Great Sword",
+      "frontier_model": 4435,
+      "frontier_weapon": "4634・ポレミカ",
+      "frontier_row": 13382,
+      "frontier_material_evidence": [
+        "Polemika Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4435,
+      "geometry_sha256": "16fe239e3767353d7a7fa52bdf7195dc87e0fb8a59a947146e1ff02544e15fc7"
+    },
+    {
+      "family": 76,
+      "asset": 576,
+      "spike_donor": "Ancient Blade",
+      "frontier_model": 4450,
+      "frontier_weapon": "6635・ブリエ・シーニュ",
+      "frontier_row": 13670,
+      "frontier_material_evidence": [
+        "Teostra Sup. Wing",
+        "Tonfas Soul (Top)",
+        "Torid Body Fluid"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4450,
+      "geometry_sha256": "22b95cd82ccae83d094bb060bbc4a28e6f31f3cdce54031601d95302a033d384"
+    },
+    {
+      "family": 77,
+      "asset": 577,
+      "spike_donor": "Icesteel Edge",
+      "frontier_model": 4454,
+      "frontier_weapon": "Torid Tonfa \"Rebellion\"",
+      "frontier_row": 13673,
+      "frontier_material_evidence": [
+        "Torid Shl+",
+        "Shining Heaven Ore",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4450,
+      "geometry_sha256": "768aeb2551df74b69cceaead1175ef2f5750af43ecbc5161c6825548a7a3943d"
+    },
+    {
+      "family": 78,
+      "asset": 578,
+      "spike_donor": "Worn Great Sword",
+      "frontier_model": 4465,
+      "frontier_weapon": "Jester",
+      "frontier_row": 13718,
+      "frontier_material_evidence": [
+        "FG4 Tkt 3",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4465,
+      "geometry_sha256": "111d94b74e334d99df051d0532d7ed952f5cee6d5f95d6381012962c1f8c4096"
+    },
+    {
+      "family": 79,
+      "asset": 579,
+      "spike_donor": "Epitaph Blade",
+      "frontier_model": 4470,
+      "frontier_weapon": "F237・ピエリエット",
+      "frontier_row": 14322,
+      "frontier_material_evidence": [
+        "FG4 Tkt 5",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4465,
+      "geometry_sha256": "d527db78286d45da9203bb07a1fabaa8084b55e0c11ea6cc089e995882624e47"
+    },
+    {
+      "family": 80,
+      "asset": 580,
+      "spike_donor": "Teostra Blade",
+      "frontier_model": 4473,
+      "frontier_weapon": "6A35・カクトスドレング",
+      "frontier_row": 13674,
+      "frontier_material_evidence": [
+        "O. Espi Absolute Scl",
+        "Rurousuisen",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4473,
+      "geometry_sha256": "13aecb476c1e83db062abb3d49039fea3413137eae735de6982dc8ec31f89e0c"
+    },
+    {
+      "family": 81,
+      "asset": 581,
+      "spike_donor": "Vulcanis",
+      "frontier_model": 4486,
+      "frontier_weapon": "Magi Pluto",
+      "frontier_row": 14161,
+      "frontier_material_evidence": [
+        "Dragon Crystal Gem",
+        "Ceremony Lyrics",
+        "Mirage Powder"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4486,
+      "geometry_sha256": "76b85629d50240f693cbe235dbb9acba588f1dffdad19227d970d90f31a2125c"
+    },
+    {
+      "family": 82,
+      "asset": 582,
+      "spike_donor": "Black Blade",
+      "frontier_model": 4497,
+      "frontier_weapon": "White-White House",
+      "frontier_row": 13354,
+      "frontier_material_evidence": [
+        "Noble White Hair",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4497,
+      "geometry_sha256": "f1fecc540761f590d1b8a243a6254662e67b0f13624a5acde2e8c92eaa589498"
+    },
+    {
+      "family": 83,
+      "asset": 583,
+      "spike_donor": "Yukumo Edge",
+      "frontier_model": 4551,
+      "frontier_weapon": "Holy Caduceus",
+      "frontier_row": 13486,
+      "frontier_material_evidence": [
+        "NP G Finesse Mat"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4169,
+      "geometry_sha256": "e27dc665d49bc4aa387799dd0213cb60626bd05a9ecaed00c9121cde85485df4"
+    },
+    {
+      "family": 84,
+      "asset": 584,
+      "spike_donor": "Yukumo Pure Edge",
+      "frontier_model": 4570,
+      "frontier_weapon": "AF35・ベギア",
+      "frontier_row": 13743,
+      "frontier_material_evidence": [
+        "Begia Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4570,
+      "geometry_sha256": "7adf77d2b391b1b23683e0f8893e07de8505a775fb844cd215dd15f14dde2eea"
+    },
+    {
+      "family": 85,
+      "asset": 585,
+      "spike_donor": "Larisaber",
+      "frontier_model": 4603,
+      "frontier_weapon": "Ophion Tonfa",
+      "frontier_row": 14200,
+      "frontier_material_evidence": [
+        "Raviente Scale",
+        "Raviente Blood",
+        "Raviente Tail"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4603,
+      "geometry_sha256": "454b688113e0a558703b2117fcfa27071aaf27a80cc0bf5cdad2727f4721d571"
+    },
+    {
+      "family": 86,
+      "asset": 586,
+      "spike_donor": "Cheese Mixer",
+      "frontier_model": 4604,
+      "frontier_weapon": "Shesha Tonfa \"Flash\"",
+      "frontier_row": 14201,
+      "frontier_material_evidence": [
+        "Raviente Gem",
+        "Raviente Blk Hide",
+        "Raviente Blk Blood"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4603,
+      "geometry_sha256": "b20c7350cf4a34a4d420d4736c9a012bc04778f079730522f2d12787802b9268"
+    },
+    {
+      "family": 87,
+      "asset": 587,
+      "spike_donor": "Autumn Umbrella",
+      "frontier_model": 4605,
+      "frontier_weapon": "Shesha Tonfa \"Shine\"",
+      "frontier_row": 14202,
+      "frontier_material_evidence": [
+        "Violent Ravi Blood",
+        "Raviente Blk Scale",
+        "Ravi Bright Crystal"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4603,
+      "geometry_sha256": "768cef8e4716d35f29f80c35cc00215199b2b88269d4564908588a9b7da82c45"
+    },
+    {
+      "family": 88,
+      "asset": 588,
+      "spike_donor": "Frozen Speartuna",
+      "frontier_model": 4606,
+      "frontier_weapon": "Shesha Tonfa \"Glory\"",
+      "frontier_row": 14203,
+      "frontier_material_evidence": [
+        "Raviente Blood",
+        "Raviente Blk Horn",
+        "Raviente Blk Fang"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4603,
+      "geometry_sha256": "a9eeac270a0908a037dbc6043d6d0136facaeca6498b545a380b594eee26aa5a"
+    },
+    {
+      "family": 89,
+      "asset": 589,
+      "spike_donor": "Wyvern's Perch",
+      "frontier_model": 4607,
+      "frontier_weapon": "Shesha Tonfa \"Clear\"",
+      "frontier_row": 14204,
+      "frontier_material_evidence": [
+        "Raviente Blk Wing",
+        "Raviente Blk Tail",
+        "Ravi Hidden Marrow"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4603,
+      "geometry_sha256": "247a044474d9f4d5177690c4a8cc518820f4076497eb8b5b8ff70d9b92111a1a"
+    },
+    {
+      "family": 90,
+      "asset": 590,
+      "spike_donor": "Aloe Blade",
+      "frontier_model": 4654,
+      "frontier_weapon": "AF39・ゲヴィッタヴィゴーレ",
+      "frontier_row": 14767,
+      "frontier_material_evidence": [
+        "Cosmic Soul Grass",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4425,
+      "geometry_sha256": "89cca20a79e0d751154bf9898f1153e98cb4cf376203792b923cefe5f97ee0b4"
+    },
+    {
+      "family": 91,
+      "asset": 591,
+      "spike_donor": "Cat's Soul",
+      "frontier_model": 4661,
+      "frontier_weapon": "2E37・ウルキーフローレス",
+      "frontier_row": 14126,
+      "frontier_material_evidence": [
+        "Toxic Flower",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4661,
+      "geometry_sha256": "63bbf7e78d2b9cade27d0265ab5c8e101c8d85756ed340b79f32f9ea5f6930e9"
+    },
+    {
+      "family": 92,
+      "asset": 592,
+      "spike_donor": "El Dora Blade",
+      "frontier_model": 4662,
+      "frontier_weapon": "2F37・ドラグスパイラル",
+      "frontier_row": 14127,
+      "frontier_material_evidence": [
+        "Magzegite Ore",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4662,
+      "geometry_sha256": "45dd7837f614c6b4f1df9d511f31b86bc4836ba8aec8a0dfb293de1a5f0c1af5"
+    },
+    {
+      "family": 93,
+      "asset": 593,
+      "spike_donor": "Black Belt Blade",
+      "frontier_model": 4689,
+      "frontier_weapon": "Mimital Tonfa",
+      "frontier_row": 14437,
+      "frontier_material_evidence": [
+        "Mimital Tkt",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4689,
+      "geometry_sha256": "136c22633d24c5f56cb14397301f39ee68124a0e25cf8fb1fe930dd374023092"
+    },
+    {
+      "family": 94,
+      "asset": 594,
+      "spike_donor": "Expert Blade",
+      "frontier_model": 4767,
+      "frontier_weapon": "Rose",
+      "frontier_row": 14524,
+      "frontier_material_evidence": [
+        "FG5 Tkt 3",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4767,
+      "geometry_sha256": "fdd67fbda07fac99af22db6562ce0061264c0407061b2cebb1db28a9fe1be405"
+    },
+    {
+      "family": 95,
+      "asset": 595,
+      "spike_donor": "Eostoclad",
+      "frontier_model": 4779,
+      "frontier_weapon": "Void Icetonfa",
+      "frontier_row": 14710,
+      "frontier_material_evidence": [
+        "NK1 Tkt 1",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4779,
+      "geometry_sha256": "ed245dc41dcf49ac11e4cef541da1f5c19aece2aa676368afb2a6cb81e321646"
+    },
+    {
+      "family": 96,
+      "asset": 596,
+      "spike_donor": "Stonefist Pincer",
+      "frontier_model": 4798,
+      "frontier_weapon": "ED38・ルヴァンジペイ",
+      "frontier_row": 14573,
+      "frontier_material_evidence": [
+        "Festival Emblem",
+        "Sunflower",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4798,
+      "geometry_sha256": "f8f65d1c8c6f4d9a2b7a3dae8146503bb475a7811446866d779091248623fccf"
+    },
+    {
+      "family": 97,
+      "asset": 597,
+      "spike_donor": "Royal Blade",
+      "frontier_model": 4816,
+      "frontier_weapon": "Volja Carmeli",
+      "frontier_row": 14747,
+      "frontier_material_evidence": [
+        "Teostra Sup. Wing",
+        "Tonfas Soul (Top)",
+        "Kuaru. Prismastone"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4816,
+      "geometry_sha256": "3e17a7b201769be10170c010ee2182f37ee066f6c4e140fd2472f46c9487bb2e"
+    },
+    {
+      "family": 98,
+      "asset": 598,
+      "spike_donor": "Demon Knife",
+      "frontier_model": 4826,
+      "frontier_weapon": "Excited Felyne",
+      "frontier_row": 14847,
+      "frontier_material_evidence": [
+        "アイルー棍生産券",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4826,
+      "geometry_sha256": "58662401e7daecd5d39120be1494cc44ba1522407901113c7a4e924b8a35d332"
+    },
+    {
+      "family": 99,
+      "asset": 599,
+      "spike_donor": "Blazing Squall",
+      "frontier_model": 4838,
+      "frontier_weapon": "Mania Flameclub",
+      "frontier_row": 14856,
+      "frontier_material_evidence": [
+        "NK2 Tkt 2",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4838,
+      "geometry_sha256": "bfec0b650d67fb5cd48b4baac184d94a5c81917ee67e84146eba1aec57418390"
+    },
+    {
+      "family": 100,
+      "asset": 600,
+      "spike_donor": "Grobowall",
+      "frontier_model": 4868,
+      "frontier_weapon": "Steel Ende I",
+      "frontier_row": 14965,
+      "frontier_material_evidence": [
+        "N Medal・Silver",
+        "N Medal・Black",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4868,
+      "geometry_sha256": "85f0c2c8de08d1a4bcc3c7688e96c6d46761658ff153d792b8255a24f7724512"
+    },
+    {
+      "family": 101,
+      "asset": 601,
+      "spike_donor": "Sentoryo Calamity",
+      "frontier_model": 4869,
+      "frontier_weapon": "Rubino Ende I",
+      "frontier_row": 14963,
+      "frontier_material_evidence": [
+        "N Seal A",
+        "N Seal D",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4868,
+      "geometry_sha256": "f22586e3f57e3afa64271703a110ee1f5b1eb0e325782d7dfa2aa24c6ed5f94f"
+    },
+    {
+      "family": 102,
+      "asset": 602,
+      "spike_donor": "Flamelord Wing",
+      "frontier_model": 4933,
+      "frontier_weapon": "Skopel",
+      "frontier_row": 15353,
+      "frontier_material_evidence": [
+        "スコペル生産券",
+        "G Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4933,
+      "geometry_sha256": "7bf3c13e67b5bcade16ec6e69f1079d599c5c27f1a6682a750aa5de5146658b9"
+    },
+    {
+      "family": 103,
+      "asset": 603,
+      "spike_donor": "Thunderlord Gekirai",
+      "frontier_model": 4855,
+      "frontier_weapon": "3B3A・獄棍リュウカイ",
+      "frontier_row": 14907,
+      "frontier_material_evidence": [
+        "S.Zin Pulsing Shl",
+        "Dracophage Bug",
+        "S.Zinogre Hardhorn"
+      ],
+      "model_selection": "Zinogre relative (Stygian)",
+      "frontier_sound": 4529,
+      "geometry_sha256": "27a6e59bd9b1fb483dc3f51f9ad7baa9c43d92e8819ed36bf1f7c6a2f7cf62ef"
+    },
+    {
+      "family": 104,
+      "asset": 604,
+      "spike_donor": "Rudra Jawblade",
+      "frontier_model": 4955,
+      "frontier_weapon": "Zena Neroshwi",
+      "frontier_row": 15310,
+      "frontier_material_evidence": [
+        "Zena Scale",
+        "Fragile Seed",
+        "GR7 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4955,
+      "geometry_sha256": "d483ce4f226268eae3c943d09ce4e17d555e1f6fe821f269566b6405a0a55121"
+    },
+    {
+      "family": 105,
+      "asset": 605,
+      "spike_donor": "Crisped Blazer",
+      "frontier_model": 6000,
+      "frontier_weapon": "Vrage Nightshade",
+      "frontier_row": 15327,
+      "frontier_material_evidence": [
+        "Blang Brutal Fur",
+        "Blang Brutal Fang",
+        "Blangonga Soft Tail"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6000,
+      "geometry_sha256": "9df9a9129c81d9af67c7eb363eca3a11dfc3ca47f854c4ccbd2bd648e371c63c"
+    },
+    {
+      "family": 106,
+      "asset": 606,
+      "spike_donor": "Fox Blade",
+      "frontier_model": 6019,
+      "frontier_weapon": "Composer Tonfa \"Solo\"",
+      "frontier_row": 15261,
+      "frontier_material_evidence": [
+        "祈律石",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6019,
+      "geometry_sha256": "d2b853f7dd70041c83da34f6f202f5641921fb54e854c26df9ffd3be64fcc47b"
+    },
+    {
+      "family": 107,
+      "asset": 607,
+      "spike_donor": "Captain Blade J",
+      "frontier_model": 6056,
+      "frontier_weapon": "Mido Tonfa Sieger",
+      "frontier_row": 15741,
+      "frontier_material_evidence": [
+        "Mido Tough Hide",
+        "Mido Purple Fur",
+        "Mido Red Spine"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6056,
+      "geometry_sha256": "d07f9f07960403176529f35837c32fa57fac42495fcac9be2e9f36747a0f0bf5"
+    },
+    {
+      "family": 108,
+      "asset": 608,
+      "spike_donor": "Amol Saiqa",
+      "frontier_model": 6062,
+      "frontier_weapon": "Sleet Mist",
+      "frontier_row": 15627,
+      "frontier_material_evidence": [
+        "Giaorugu Frozen Scle",
+        "Giaorugu Fever Hide",
+        "Giaorugu Thick Bone"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6062,
+      "geometry_sha256": "d6e7fdb434786fb6e89d6860b4205180026739f666f27ba45fe5a107fb6f63bc"
+    },
+    {
+      "family": 109,
+      "asset": 609,
+      "spike_donor": "Chivalry",
+      "frontier_model": 6071,
+      "frontier_weapon": "Paria Plush I",
+      "frontier_row": 15650,
+      "frontier_material_evidence": [
+        "FG6 Tkt 4",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6071,
+      "geometry_sha256": "2cf5ff77389057f9949a1aafd3178d6073961ebcad53b9f31ca5a26a69b23f9f"
+    },
+    {
+      "family": 110,
+      "asset": 610,
+      "spike_donor": "G Blade",
+      "frontier_model": 6086,
+      "frontier_weapon": "Sacred White Boltarm I",
+      "frontier_row": 15835,
+      "frontier_material_evidence": [
+        "10th Weapon Ticket",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6086,
+      "geometry_sha256": "7ecc974d881e650655b9291cf4aca265a07a20a7eca3fe634a63d2e270ad4191"
+    },
+    {
+      "family": 111,
+      "asset": 611,
+      "spike_donor": "Gold Great Sword",
+      "frontier_model": 6163,
+      "frontier_weapon": "Goldsilver Fish Sticks",
+      "frontier_row": 15887,
+      "frontier_material_evidence": [
+        "Fish Duo Passions",
+        "Khezu Fresh Hide",
+        "Khezu Spleen"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6163,
+      "geometry_sha256": "913f6609be5f2faec6c980cdebca9ed065cbd654f2850379966107946913ec3a"
+    },
+    {
+      "family": 112,
+      "asset": 612,
+      "spike_donor": "Silverwing Great Sword",
+      "frontier_model": 6169,
+      "frontier_weapon": "Ruko Tonfa Ranho",
+      "frontier_row": 15915,
+      "frontier_material_evidence": [
+        "Ruko Magnet Scale",
+        "Rukodiora Rigid Shll",
+        "Ruko Orange Horn"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6169,
+      "geometry_sha256": "6785f6747b44b8cfbef7ce2cae43b34e5fbd0f0df658ba7d21a3dbdef3630844"
+    },
+    {
+      "family": 113,
+      "asset": 613,
+      "spike_donor": "Zephra Wing",
+      "frontier_model": 6233,
+      "frontier_weapon": "Inagami Tonfa \"Canna\"",
+      "frontier_row": 16109,
+      "frontier_material_evidence": [
+        "Inagami Tenacious Hide",
+        "Inagami Tenacious Scale",
+        "Inagami Blunt Claw"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6233,
+      "geometry_sha256": "c757088ec829c97967b673c7f08944fcf2ef43b1eef3158b79b9d283465241fe"
+    },
+    {
+      "family": 114,
+      "asset": 614,
+      "spike_donor": "Yaezakura",
+      "frontier_model": 6248,
+      "frontier_weapon": "Nature's Beauty \"Day\"",
+      "frontier_row": 16271,
+      "frontier_material_evidence": [
+        "DoublCherryTreSeed",
+        "Blang Brutal Fur"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6248,
+      "geometry_sha256": "17d2993e860296ce1c38e20fde776225b68c8dc6c1af73367f3c3dee352d4436"
+    },
+    {
+      "family": 115,
+      "asset": 615,
+      "spike_donor": "Elderfrost Great Sword",
+      "frontier_model": 6257,
+      "frontier_weapon": "Renka Tonfa",
+      "frontier_row": 16147,
+      "frontier_material_evidence": [
+        "Blooming Harmonic Steel",
+        "Rathalos Searscale",
+        "Blangonga Soft Tail"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6257,
+      "geometry_sha256": "5407994292e31002673072ef5b57036320b8d393f407187cbc3d9e9232982a1d"
+    },
+    {
+      "family": 116,
+      "asset": 616,
+      "spike_donor": "Massacre Blade",
+      "frontier_model": 6283,
+      "frontier_weapon": "Ravina Tonfa",
+      "frontier_row": 16267,
+      "frontier_material_evidence": [
+        "Mirage Soul Stone",
+        "祭典の刻印"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6283,
+      "geometry_sha256": "9e2453bc3701bddd357b7e1771b924b440db8fc80dff4e5e9057baae0e2bd4d3"
+    },
+    {
+      "family": 117,
+      "asset": 617,
+      "spike_donor": "Razor Cleaver",
+      "frontier_model": 6296,
+      "frontier_weapon": "Rage Tonfa \"Odd\"",
+      "frontier_row": 16326,
+      "frontier_material_evidence": [
+        "Gasura Dried Hide",
+        "Gasura Dried Scale",
+        "Gasura Thick Fin"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6296,
+      "geometry_sha256": "eadfedc2b968c6f71955bdebec40c3d1fdb91f663a289ddc290051ab68031ec5"
+    },
+    {
+      "family": 118,
+      "asset": 618,
+      "spike_donor": "Cloaked Blade",
+      "frontier_model": 6305,
+      "frontier_weapon": "Anoru Tonfa \"Deseo\"",
+      "frontier_row": 16693,
+      "frontier_material_evidence": [
+        "Anoru Woe Scale",
+        "Anoru Woe Shell",
+        "Anoru Blue Wing"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6305,
+      "geometry_sha256": "48706fe93d2572f176a910eb78eb861a326ddb6d6b5314c34dc7b7dae051ba6f"
+    },
+    {
+      "family": 119,
+      "asset": 619,
+      "spike_donor": "Dragonslayer",
+      "frontier_model": 6326,
+      "frontier_weapon": "Elzeacta",
+      "frontier_row": 16371,
+      "frontier_material_evidence": [
+        "Thank You Ⅹ"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6326,
+      "geometry_sha256": "2a826753b32ae5f8ef6835aa88e6a86fbfff3e9e03cf9ee4fc227125061364de"
+    },
+    {
+      "family": 120,
+      "asset": 620,
+      "spike_donor": "Fatalis Fireblade",
+      "frontier_model": 3683,
+      "frontier_weapon": "Crimson Demon Tonfa",
+      "frontier_row": 11607,
+      "frontier_material_evidence": [
+        "Fatalis Flame Scl",
+        "Rurousuisen",
+        "GR7 Gem"
+      ],
+      "model_selection": "Crimson Fatalis",
+      "frontier_sound": 3683,
+      "geometry_sha256": "54e2401031965a95100679c0b2c3e87c4b51ff39cc12251a4f256f078023121f"
+    },
+    {
+      "family": 121,
+      "asset": 621,
+      "spike_donor": "Fatalis Ancestor",
+      "frontier_model": 3684,
+      "frontier_weapon": "893D・ミラアルヒコ",
+      "frontier_row": 15753,
+      "frontier_material_evidence": [
+        "WhT. Fata Thndr Scle",
+        "WhT. Fata Thndr Shl",
+        "W. Fata Pale Wng Clw"
+      ],
+      "model_selection": "White Fatalis",
+      "frontier_sound": 3684,
+      "geometry_sha256": "f95cc53d21168615c9da5c778fb60689795a232abe3aefb7a0968b1492b6a620"
+    },
+    {
+      "family": 122,
+      "asset": 622,
+      "spike_donor": "Lightbreak Blade",
+      "frontier_model": 6349,
+      "frontier_weapon": "Resolute Tonfa \"Heart\"",
+      "frontier_row": 16445,
+      "frontier_material_evidence": [
+        "決意の証",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6283,
+      "geometry_sha256": "d86e4b855c360a879c23abda5ba5d0b0891b62babcd36e13980465e883f2e997"
+    },
+    {
+      "family": 123,
+      "asset": 623,
+      "spike_donor": "Licht/Ombre",
+      "frontier_model": 6362,
+      "frontier_weapon": "Melody Tonfa \"Solo\"",
+      "frontier_row": 16753,
+      "frontier_material_evidence": [
+        "祈貢石",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6019,
+      "geometry_sha256": "a326c69be4829d2c4017fd3912ecf1152a1a318fc3aff443e6fe9f85b0e04d1a"
+    },
+    {
+      "family": 124,
+      "asset": 624,
+      "spike_donor": "Quarrel Hornsword",
+      "frontier_model": 6375,
+      "frontier_weapon": "Rondo Tonfa \"Portcullis\"",
+      "frontier_row": 16481,
+      "frontier_material_evidence": [
+        "Forged Harmonic Steel",
+        "Hypnoc Riptalon",
+        "Rathalos Crown"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6257,
+      "geometry_sha256": "aee4885b1697366ec4ee187ba854d15debcf969bc023eaf5100f1ce425eacc90"
+    },
+    {
+      "family": 125,
+      "asset": 625,
+      "spike_donor": "Icicle Fang",
+      "frontier_model": 4602,
+      "frontier_weapon": "Frostellar",
+      "frontier_row": 13694,
+      "frontier_material_evidence": [
+        "Barioth Cortex",
+        "Hvy Amber Tusks",
+        "Barioth Lash"
+      ],
+      "model_selection": "Barioth",
+      "frontier_sound": 4602,
+      "geometry_sha256": "384c8684c21dc4673eeb54166afafe06d5adab7de773f82fe4a150b2d451e715"
+    },
+    {
+      "family": 126,
+      "asset": 626,
+      "spike_donor": "Carapace Sword",
+      "frontier_model": 6391,
+      "frontier_weapon": "Brachy Feeling",
+      "frontier_row": 16847,
+      "frontier_material_evidence": [
+        "砕竜への憧れ",
+        "Daimyo Huge Shl",
+        "Daimyo Huge Claw"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6391,
+      "geometry_sha256": "8dda0107859b011616be1b8554fee0e4ed2f929f5548201556ada6929f292f76"
+    },
+    {
+      "family": 127,
+      "asset": 627,
+      "spike_donor": "Immane Blade",
+      "frontier_model": 6422,
+      "frontier_weapon": "Bloodless Tonfa Sain",
+      "frontier_row": 17019,
+      "frontier_material_evidence": [
+        "Baru Mottled Skin",
+        "Baru Indigo Scale",
+        "Baru Tailtip"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6422,
+      "geometry_sha256": "5d959680f68f3cfb854023060f3571b40611bccca649fe9f0eb98f17981f6ddb"
+    },
+    {
+      "family": 128,
+      "asset": 628,
+      "spike_donor": "Scylla Blade",
+      "frontier_model": 6436,
+      "frontier_weapon": "Eryu Purizuma",
+      "frontier_row": 16867,
+      "frontier_material_evidence": [
+        "Boga Layered Hide",
+        "Boga Deflecting Scale",
+        "Boga Exobone"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6436,
+      "geometry_sha256": "880383d966e8a200f49a0a1ea2256b5b24b9531404c72fcbfd2a1a2c8d3eab1a"
+    },
+    {
+      "family": 129,
+      "asset": 629,
+      "spike_donor": "Reddnaught",
+      "frontier_model": 6467,
+      "frontier_weapon": "Minio・Sata",
+      "frontier_row": 16893,
+      "frontier_material_evidence": [
+        "ミニオ生産券",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6467,
+      "geometry_sha256": "655377d75d7a26f1cafafc0dab5b3ad398078403557b5d2c55ad8558d4653bee"
+    },
+    {
+      "family": 130,
+      "asset": 630,
+      "spike_donor": "Research Great Sword",
+      "frontier_model": 6489,
+      "frontier_weapon": "Lethe Tonfa",
+      "frontier_row": 17248,
+      "frontier_material_evidence": [
+        "Refined Peace Iron",
+        "Vash. Crystal Fluid",
+        "Tigrex Grinding Jaw"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6489,
+      "geometry_sha256": "1d5ef50de4d7b6148ed267ec24e867533e79f9ffcc9108f02d3d076457dd159d"
+    },
+    {
+      "family": 131,
+      "asset": 631,
+      "spike_donor": "Viking Hornsword",
+      "frontier_model": 6502,
+      "frontier_weapon": "Enrapture Tonfa \"Solo\"",
+      "frontier_row": 17284,
+      "frontier_material_evidence": [
+        "Tomo Prayer Gem",
+        "GR1 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6502,
+      "geometry_sha256": "47684fbe8735cc8f563d8928ce17072019380493cbd569d6dcff95f968100497"
+    },
+    {
+      "family": 132,
+      "asset": 632,
+      "spike_donor": "Palette Knife",
+      "frontier_model": 6515,
+      "frontier_weapon": "Chroma Tonfa",
+      "frontier_row": 17168,
+      "frontier_material_evidence": [
+        "Rabbit Soulstone",
+        "祭典の刻印"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6515,
+      "geometry_sha256": "5a0a6843a5f1627f3b52c6a7c1d2386c1c82ed5562535a917cc57e9bcbddcdd5"
+    },
+    {
+      "family": 133,
+      "asset": 633,
+      "spike_donor": "Elder Blade",
+      "frontier_model": 6545,
+      "frontier_weapon": "Lolo & Ray Adventure I",
+      "frontier_row": 17201,
+      "frontier_material_evidence": [
+        "Colourful Yarn",
+        "Mido Tough Hide"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6545,
+      "geometry_sha256": "ba9f87f247c07458b4eac81365269b6295f82520d78fc2834820320cf5c857fc"
+    },
+    {
+      "family": 134,
+      "asset": 634,
+      "spike_donor": "Clero Blade",
+      "frontier_model": 6554,
+      "frontier_weapon": "Layer Tonfa",
+      "frontier_row": 17471,
+      "frontier_material_evidence": [
+        "Taikun Crush Shell",
+        "Taikun Orange Shl",
+        "Taikun Spike"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6554,
+      "geometry_sha256": "d83a19b6ddfc778e46eda5adb8f2be6505adc98e623b1f0cb86b754aead319c2"
+    },
+    {
+      "family": 135,
+      "asset": 635,
+      "spike_donor": "Drifter's Sword",
+      "frontier_model": 6575,
+      "frontier_weapon": "Magi Bumble",
+      "frontier_row": 17383,
+      "frontier_material_evidence": [
+        "FZ Ticket・9",
+        "GR5 Gem"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 4390,
+      "geometry_sha256": "b28c3fc012f71eb3a07f067691bc87fe71feabdccaa682203a4e994e7467ff6f"
+    },
+    {
+      "family": 136,
+      "asset": 636,
+      "spike_donor": "Garo Sword",
+      "frontier_model": 6603,
+      "frontier_weapon": "Decorative Guku",
+      "frontier_row": 17547,
+      "frontier_material_evidence": [
+        "Decor. Camellia",
+        "Taikun Crush Shell"
+      ],
+      "model_selection": "distinct Frontier fallback",
+      "frontier_sound": 6603,
+      "geometry_sha256": "ecdd0dd01c5605d562f87e205ea703a618a1ca0ce4cff8b68f428fa742bffddd"
+    },
+    {
+      "family": 137,
+      "asset": 637,
+      "spike_donor": null,
+      "frontier_model": 6480,
+      "frontier_weapon": "Divine Caduceus",
+      "frontier_row": 17147,
+      "frontier_material_evidence": [
+        "Supreme Scroll",
+        "Anoru Z Top Sawhorn"
+      ],
+      "model_selection": "Divine Caduceus",
+      "frontier_sound": 4169,
+      "geometry_sha256": "33b87f0d2dab0e56af0bfa46151da13e68f7b3aacfb2fb1bd4abf8ccc9fa615c"
+    }
+  ],
+  "style": "Extreme Tonfa",
+  "equipment_type": 25,
+  "source_balance": "balance-1",
+  "direct_recipes": 96,
+  "divine": {
+    "id": 137,
+    "level": 1,
+    "raw": 330,
+    "affinity": 5,
+    "slots": 0,
+    "sharpness_endpoints": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      280,
+      450
+    ],
+    "materials": [
+      {
+        "name": "Lrg Elder Dragon Gem",
+        "id": 1553,
+        "quantity": 10
+      }
+    ]
+  }
+}
