@@ -4,8 +4,8 @@ A work-in-progress port of Monster Hunter Frontier's Extreme Style Tonfa (穿龙
 
 ## Play
 
-1. Download the [Tonfa mod ZIP](downloads/Tonfa-Extreme-standalone-Definitive-Edition.zip).
-2. Extract the `Tonfa-Extreme` directory into the game's `mods` directory. Keep the matching executable patches together. Use the compatible `0-style-registry` from your setup. Magnet Spike is optional as a development reference and is unnecessary for this build.
+1. Download the [Tonfa mod for Definitive Edition](downloads/Tonfa-Extreme-standalone-Definitive-Edition.zip?raw=true) and the [required Tonfa-compatible Style Registry](downloads/0-style-registry-Tonfa-compatible.zip?raw=true).
+2. With the game closed, extract both ZIPs into the game's `mods` directory. You should have `mods/Tonfa-Extreme` and `mods/0-style-registry` side by side. If Style Registry is already installed, back up its plugin, then replace `mods/0-style-registry/romfs/nativeNX/plugins/style_registry.nro` with the bundled version. Keep a single active copy of the registry. Extreme Dual Blades can stay enabled.
 3. Restart Recomp, equip a Tonfa and select Extreme Style. The [Xbox and keyboard move chart](Extreme-Tonfa-Xbox-Keyboard.png) lists the inputs.
 
 The discharge sound is still being matched to Frontier. Full combat parity and multiplayer behavior remain unverified.
