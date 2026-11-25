@@ -1,12 +1,22 @@
 # MHGU Extreme Tonfa
 
-A work-in-progress port of Monster Hunter Frontier's Extreme Style Tonfa (穿龙棍) for MHGU Recomp. This build targets Recomp 0.18.0 with the tested Definitive Edition executable layout and a Tonfa-compatible Style Registry.
+A work-in-progress port of Monster Hunter Frontier's Extreme Style Tonfa (穿龙棍) for MHGU Recomp. Tested in offline hunts on Windows MHGU Recomp 0.18.0 and 0.20.0.
 
 ## Play
 
-1. Download the [Tonfa mod for Definitive Edition](downloads/Tonfa-Extreme-standalone-Definitive-Edition.zip?raw=true) and the [required Tonfa-compatible Style Registry](downloads/0-style-registry-Tonfa-compatible.zip?raw=true).
-2. With the game closed, extract both ZIPs into the game's `mods` directory. You should have `mods/Tonfa-Extreme` and `mods/0-style-registry` side by side. If Style Registry is already installed, back up its plugin, then replace `mods/0-style-registry/romfs/nativeNX/plugins/style_registry.nro` with the bundled version. Keep a single active copy of the registry. Extreme Dual Blades can stay enabled.
+1. Choose the Tonfa ZIP for your active mod setup.
+
+   | Your setup | Download |
+   | --- | --- |
+   | Base Recomp, including setups with the Extreme Style mods | [Tonfa for base Recomp](downloads/Tonfa-Extreme-Base-Recomp.zip?raw=true) |
+   | MHGU Definitive Edition enabled | [Tonfa for Definitive Edition](downloads/Tonfa-Extreme-standalone-Definitive-Edition.zip?raw=true) |
+
+   Install one Tonfa ZIP. Each includes a matching pair of executable patches. Mixing the files or choosing the wrong layout can prevent the game from launching.
+2. Download the [Tonfa-compatible Style Registry](downloads/0-style-registry-Tonfa-compatible.zip?raw=true). With Recomp closed, extract both ZIPs into the game's `mods` directory. If you already have a registry, back up its plugin outside the active mods folder before replacing it. Keep a single active `0-style-registry` alongside `Tonfa-Extreme`.
+
 3. Restart Recomp, equip a Tonfa and select Extreme Style. The [Xbox and keyboard move chart](Extreme-Tonfa-Xbox-Keyboard.png) lists the inputs.
+
+On 0.20.0, Tonfa registered on weapon key 16 and landed hits with all six Extreme Style plugins loaded in both setups. Extreme Dual Blades retains its own style. The upstream registry supplied for this test rejects key 16 and logs `Extreme Tonfa registration failed: Invalid`. If the game launches but the Tonfa moveset is missing, check which registry is active. Emulator compatibility is untested.
 
 The discharge sound is still being matched to Frontier. Full combat parity and multiplayer behavior remain unverified.
 
