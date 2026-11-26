@@ -4,21 +4,16 @@ A work-in-progress port of Monster Hunter Frontier's Extreme Style Tonfa (穿龙
 
 ## Play
 
-1. Choose the Tonfa ZIP for your active mod setup.
+[Download the latest English base-game release](https://github.com/sasikikyo/MHGU-Extreme-Tonfa/releases/latest). The ZIP includes Extreme Style Tonfa, the matching Style Registry and English installation instructions for MHGU 1.4.0.
 
-   | Your setup | Download |
-   | --- | --- |
-   | Base Recomp, including setups with the Extreme Style mods | [Tonfa for base Recomp](downloads/Tonfa-Extreme-Base-Recomp.zip?raw=true) |
-   | MHGU Definitive Edition enabled | [Tonfa for Definitive Edition](downloads/Tonfa-Extreme-standalone-Definitive-Edition.zip?raw=true) |
+| Platform | Installation |
+| --- | --- |
+| Windows Recomp | Open the ZIP's `Recomp` folder. Copy `mods` next to `mhgurecomp.exe`. |
+| Physical Switch | With MHGU Forge installed, open the ZIP's `Switch` folder. Merge `atmosphere` into the SD card root. |
 
-   Install one Tonfa ZIP. Each includes a matching pair of executable patches. Mixing the files or choosing the wrong layout can prevent the game from launching.
-2. Download the [Tonfa-compatible Style Registry](downloads/0-style-registry-Tonfa-compatible.zip?raw=true). With Recomp closed, extract both ZIPs into the game's `mods` directory. If you already have a registry, back up its plugin outside the active mods folder before replacing it. Keep a single active `0-style-registry` alongside `Tonfa-Extreme`.
+When upgrading, back up older copies of Tonfa and Style Registry outside the active mod folders. The included `INSTALL.txt` covers each platform. For the move list, open Hunter's Notes → Weapon Controls → Tonfa, or see the [Xbox and keyboard chart](Extreme-Tonfa-Xbox-Keyboard.png).
 
-3. Restart Recomp, equip a Tonfa and select Extreme Style. The [Xbox and keyboard move chart](Extreme-Tonfa-Xbox-Keyboard.png) lists the inputs.
-
-On 0.20.0, Tonfa registered on weapon key 16 and landed hits with all six Extreme Style plugins loaded in both setups. Extreme Dual Blades retains its own style. The upstream registry supplied for this test rejects key 16 and logs `Extreme Tonfa registration failed: Invalid`. If the game launches but the Tonfa moveset is missing, check which registry is active. Emulator compatibility is untested.
-
-The discharge sound is still being matched to Frontier. Full combat parity and multiplayer behavior remain unverified.
+The base build has been tested in offline hunts on Windows Recomp 0.20.0. The physical Switch package layout has been verified. Gameplay on physical Switch and Android Relink, full Frontier combat parity and multiplayer remain unverified.
 
 ## Source
 
